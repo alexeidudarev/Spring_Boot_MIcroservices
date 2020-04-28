@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1027c8b7-a174-4ae2-9be9-48d269f82100" name="Default Changelist" comment="" />
+    <list default="true" id="1027c8b7-a174-4ae2-9be9-48d269f82100" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-info-service/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-info-service/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-info-service/.idea/movie-info-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-info-service/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-rating-data-service/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-rating-data-service/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-rating-data-service/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-rating-data-service/.idea/movie-rating-data-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-rating-data-service/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1aX6dsDyrHJBCWjdfrLXKmWV8Gs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../movie-rating-data-service" />
   </component>
   <component name="RunManager">
     <configuration name="[]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
@@ -67,6 +87,9 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="137" y="0" width="1215" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586870217575">
       <screen x="0" y="0" width="1366" height="728" />
@@ -76,9 +99,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="501" y="246" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1586869813458" />
-    <state x="413" y="62" key="FileChooserDialogImpl" timestamp="1586870130312">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="2261" y="-207" key="FileChooserDialogImpl" timestamp="1587835840704">
+      <screen x="1680" y="-296" width="1920" height="1040" />
     </state>
     <state x="413" y="62" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586870130312" />
+    <state x="508" y="86" key="FileChooserDialogImpl/0.0.1680.1010/1680.-296.1920.1040@0.0.1680.1010" timestamp="1587835775248" />
+    <state x="2261" y="-207" key="FileChooserDialogImpl/0.0.1680.1010/1680.-296.1920.1040@1680.-296.1920.1040" timestamp="1587835840704" />
+    <state x="2218" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1587836015027">
+      <screen x="1680" y="-296" width="1920" height="1040" />
+    </state>
+    <state x="471" y="287" key="com.intellij.ide.util.TipDialog/0.0.1680.1010/1680.-296.1920.1040@0.0.1680.1010" timestamp="1587835660231" />
+    <state x="2218" y="0" key="com.intellij.ide.util.TipDialog/0.0.1680.1010/1680.-296.1920.1040@1680.-296.1920.1040" timestamp="1587836015027" />
   </component>
 </project>
