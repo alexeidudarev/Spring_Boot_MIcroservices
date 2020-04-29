@@ -1,5 +1,6 @@
 package io.moviecatalog.moviecatalogservice.resourses;
 
+import com.netflix.discovery.DiscoveryClient;
 import com.sun.webkit.WebPageClient;
 import io.moviecatalog.moviecatalogservice.models.CatalogItem;
 import io.moviecatalog.moviecatalogservice.models.Movie;
@@ -25,6 +26,8 @@ public class MovieCatalogResource {
 
     @Autowired
     private RestTemplate restTemplate;
+    @Autowired
+    private DiscoveryClient discoveryClient;
     //@Autowired
     //WebClient.Builder webClientBuilder;
 
@@ -32,11 +35,12 @@ public class MovieCatalogResource {
     public List<CatalogItem> getCatalog(@PathVariable String userId){
 
 
-
-        UserRating ratings = restTemplate.getForObject("http://localhost:8083/ratingsdata/users/"+userId, UserRating.class);
+        //next cal will be send trought eureka discovery server , localhost:8083 will be replaced by service name
+        UserRating ratings = restTemplate.getForObject("http://movie-rating-data-service/ratingsdata/users/"+userId, UserRating.class);
         return ratings.getUserRating().stream().map(rating -> {
             //this method response to res client and getting each movie id ,call movie info service and get details
-            Movie movie = restTemplate.getForObject("http://localhost:8082/movies/"+rating.getMovieId(), Movie.class);
+            //localhost:8082 will be replaced by service name taking real url from discovery server
+            Movie movie = restTemplate.getForObject("http://movie-info-service/movies/"+rating.getMovieId(), Movie.class);
 
             //next line response to new framework web client that will replace rest template in the future
             /*
